@@ -1,0 +1,35 @@
+# Node.js 관련
+# 패키지 종속성을 저장하는 폴더라서 Git에 올릴 필요 없음.
+# 팀원이 package.json과 package-lock.json만 있으면 npm install로 설치 가능.
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# 환경 변수
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE 및 OS 관련 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# 빌드 및 배포 관련
+dist/
+build/
+coverage/
+
+# 데이터베이스 (예: SQLite) - 사용안하지만 혹시 모르니
+*.sqlite
+*.sqlite3
+
+# Docker 관련 (아직 없음)
+docker-compose.override.yml
